@@ -1,5 +1,5 @@
 <template>
   <main>
-    <h1>This is About Us page</h1>
+    <h1>This is Students page</h1>
   </main>
 </template>
