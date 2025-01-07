@@ -23,33 +23,14 @@ import HelloWorld from "./components/HelloWorld.vue";
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <RouterLink
-                  class="nav-link dropdown-toggle"
-                  to="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </RouterLink>
-                <ul class="dropdown-menu">
-                  <li><RouterLink class="dropdown-item" to="#">Action</RouterLink></li>
-                  <li><RouterLink class="dropdown-item" to="#">Another action</RouterLink></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <RouterLink class="dropdown-item" to="#">Something else here</RouterLink>
-                  </li>
-                </ul>
+                <RouterLink class="nav-link" to="/about">About Us</RouterLink>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+                <RouterLink class="nav-link" to="/students">Student</RouterLink>
+                </li>
             </ul>
           </div>
         </div>
