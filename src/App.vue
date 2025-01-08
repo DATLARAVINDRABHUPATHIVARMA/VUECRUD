@@ -1,13 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
-import StudentView from "./views/Students/View.vue"
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <RouterLink class="navbar-brand" to="#">Navbar</RouterLink>
           <button
@@ -22,7 +21,7 @@ import StudentView from "./views/Students/View.vue"
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
               </li>
