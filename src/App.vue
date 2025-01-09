@@ -29,7 +29,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                 <RouterLink class="nav-link" to="/about">About Us</RouterLink>
               </li>
               <li class="nav-item">
-                <RouterLink class="nav-link" to="/students">Student</RouterLink>
+                <RouterLink class="nav-link" to="/students">Students</RouterLink>
                 </li>
             </ul>
           </div>
