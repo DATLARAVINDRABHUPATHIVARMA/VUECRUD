@@ -33,6 +33,8 @@
 
 
 <script>
+import axios from 'axios';
+
 
  export default{
   name: 'students',
@@ -44,6 +46,13 @@
   mounted() {
    // console.log("I am here")
   },
+  methods:{
+    getStudents(){
+      axios.get('').then(res => {
+
+      });
+    }
+  }
 
 }
 
